@@ -1,0 +1,39 @@
+/.idea/
+/.vscode/
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.sqlite
+kt_ai.db
+
+# Node / Next.js
+node_modules/
+.next/
+dist/
+build/
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Index artifacts
+memory/indexes/
+indexes/
+apps/api/generated/
+memory/sessions/chat_sessions.json
+infra/observability/query_logs.jsonl
+
+# Figma export tooling
+apps/web/figma-ui/**/node_modules/
+apps/web/figma-ui/**/dist/
+apps/web/figma-ui/**/.vite/

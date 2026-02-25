@@ -1,0 +1,33 @@
+.background {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.lottie {
+  width: 100%;
+  height: 100%;
+  opacity: 0.55;
+  filter: saturate(1.1) blur(0px);
+}
+
+.gradientOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255, 0, 175, 0.15), rgba(15, 23, 42, 0.4));
+  z-index: 1;
+}
+
+@media (max-width: 639px) {
+  .lottie {
+    opacity: 0.35;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lottie {
+    opacity: 0.2;
+  }
+}

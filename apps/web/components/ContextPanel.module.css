@@ -1,0 +1,65 @@
+.panel {
+  background: var(--color-neutral-50);
+  border: 1px solid var(--color-neutral-200);
+  border-radius: 16px;
+  padding: 20px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.panel h2 {
+  margin: 0;
+  font-size: 16px;
+  color: var(--color-neutral-900);
+}
+
+.section span {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--color-neutral-500);
+  font-weight: 600;
+}
+
+.section p {
+  margin: 6px 0 0;
+  font-size: 14px;
+  color: var(--color-neutral-900);
+}
+
+.sources {
+  border-top: 1px solid var(--color-neutral-200);
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sources h3 {
+  margin: 0;
+  font-size: 14px;
+  color: var(--color-neutral-900);
+}
+
+.sourceItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  background: #ffffff;
+  border: 1px solid var(--color-neutral-200);
+  border-radius: 10px;
+  font-size: 12px;
+  color: var(--color-neutral-700);
+}
+
+.badge {
+  align-self: flex-start;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  color: var(--color-success);
+  background: rgba(16, 185, 129, 0.1);
+  font-size: 12px;
+  font-weight: 600;
+}
